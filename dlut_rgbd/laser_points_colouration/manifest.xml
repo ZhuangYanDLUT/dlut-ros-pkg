@@ -1,0 +1,18 @@
+<package>
+  <description brief="laser_points_colouration">
+
+     laser_points_colouration
+
+  </description>
+  <author>Zhao Cilang,Yan Fei,Zhuang Yan/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/laser_points_colouration</url>
+  <depend package="sensor_msgs"/>
+  <depend package="pcl_ros"/>
+  <depend package="opencv2"/>
+  <depend package="roscpp"/>
+
+</package>
+
+

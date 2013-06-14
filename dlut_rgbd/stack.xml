@@ -1,0 +1,9 @@
+<stack>
+  <description brief="dlut_rgbd">dlut_rgbd</description>
+  <author>Zhao Cilang,Yan Fei,Zhuang Yan/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dlut_rgbd</url>
+  <depend stack="ros" />
+
+</stack>

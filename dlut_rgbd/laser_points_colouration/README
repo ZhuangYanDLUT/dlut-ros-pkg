@@ -1,0 +1,12 @@
+Software for camera and laser calibration
+v1.0
+by Intelligent Robotics Lab, DLUT.
+
+Dependencies
+-------------------
+pcl_ros,opencv2
+
+Usage
+-------------------
+rosrun laser_points_colouration laser_points_colouration [pcd_file_name]
+[pcd_file_name] : The point cloud data file name.

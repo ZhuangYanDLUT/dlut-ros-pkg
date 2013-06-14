@@ -1,0 +1,26 @@
+Software for camera and laser calibration
+v1.0
+by Intelligent Robotics Lab, DLUT.
+
+Dependencies
+-------------------
+pcl_ros
+
+Usage
+-------------------
+rosrun sick_laser scan
+Note:get a slip of laser line. 
+
+rosrun sick_laser point_cloud [port_number] [direction] [frequency] [how many degrees to move] [the first degree] [if data save as pcd file]
+[port_number] : port number;
+[direction] : '0' or '1';
+[frequency] : The frequency which motor moved with;
+[the first degree] : To ensure the coordinate system is prefect,so you should give a first degree.
+[if data save as pcd file] : 'y' -> yes or 'n'-> no.
+Fuction : get a point cloud .
+
+rosrun sick_laser cloud_and_image [port_number] [direction] [frequency] [how many degrees to move] [the first degree] [if data save as pcd file]
+Function:get a point cloud and 8 pictures.
+
+NOTE: YOU MUST RUN THE NODE:scan FIRST AND DON'T DESTROY THIS NODE.
+

@@ -1,0 +1,21 @@
+<package>
+  <description brief="dlut_pc_odom">
+
+     This package is used to convert the laser scan to the 3D point cloud of the robot's surroundings while the robot is moving.
+
+  </description>
+  <author>Zhuang Yan,Yan Fei,Dong Bingbing/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dlut_pc_odom</url>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+  <depend package="roscpp"/>
+  <depend package="pcl_ros"/>
+
+</package>
+
+

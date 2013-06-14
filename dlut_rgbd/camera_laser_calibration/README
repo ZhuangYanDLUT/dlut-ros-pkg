@@ -1,0 +1,22 @@
+Software for camera and laser calibration
+v1.0
+by Intelligent Robotics Lab, DLUT.
+
+Dependencies
+-------------------
+image_transport,opencv2,cv_bridge,pcl_ros
+  
+Usage
+-------------------
+rosrun camera_laser_calibration detect_image_corners  [image_file_name] [p1] [p2] [p3] 
+[image_file_name] : your image file name;
+[p1] : Value of red channel ,such as 100
+[p2] : Value of green and blue channel ,such as 80 
+[p3] : The difference berween value of green and blue.
+
+rosrun camera_laser_calibration detect_laser_corners [pcd file name]
+[pcd file name] : Your pcd file name.
+
+rosrun camera_laser_calibration calculate_RT [first_file_number] [all_file_number]
+[first_file_number] : Because many times calibration is needed ,so you may have many file,we define as visionpts0-visionpts3 and laserpts0-laserpts3.Here is your first image file or first point cloud file number.
+[all_file_number] : How many files are read in.

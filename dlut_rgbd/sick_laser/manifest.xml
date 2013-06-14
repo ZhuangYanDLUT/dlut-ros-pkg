@@ -1,0 +1,18 @@
+<package>
+  <description brief="sick_laser">
+
+     sick_laser
+
+  </description>
+  <author>Zhao Cilang,Yan Fei,Zhuang Yan/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sick_laser</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="pcl_ros"/>
+
+</package>
+
+

@@ -1,0 +1,15 @@
+Software for camera and laser calibration
+v1.0
+by Intelligent Robotics Lab, DLUT.
+
+Dependencies
+-------------------
+image_transport,opencv2,cv_bridge
+
+Usage
+-------------------
+rosrun dlut_vision pgr_camera [video_mode] [frame_rate]
+[video_mode] : 1280x960 or 640x480
+[frame_rate] : 15 or 7.5 
+
+rosrun dlut_vision camera_calibration  

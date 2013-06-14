@@ -1,0 +1,13 @@
+<launch>
+
+	<node pkg="dlut_move_base" name="serial_com" type="serial_com"/>
+
+	<node pkg="hokuyo_node" name="hokuyo_node" type="hokuyo_node"/>
+	<!--must add the odom_pch by hand,or there will be no txt output-->
+	<!--node pkg="dlut_pc_odom" name="odom_pc" type="odom_pc"/-->
+
+	<!--must add the motor_hokuyo by hand after odom_pch,or some msg will be transmitted wrong-->
+	<!--node pkg="dlut_motor_hokuyo" name="motor_hokuyo" type="motor_hokuyo"/-->
+	
+</launch>
+

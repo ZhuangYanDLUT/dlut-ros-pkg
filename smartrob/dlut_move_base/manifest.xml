@@ -1,0 +1,19 @@
+<package>
+  <description brief="dlut_move_base">
+
+     dlut_move_base
+
+  </description>
+  <author>Zhuang Yan,Yan Fei,Dong Bingbing/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/dlut_move_base</url>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="std_msgs"/>
+
+</package>
+
+
