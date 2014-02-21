@@ -1,0 +1,9 @@
+<stack>
+  <description brief="dlut_place_recognition">The packages developed on smartrob in DaLian University Of Technology
+  </description>
+  <author>Zhuang Yan,Yan Fei,Li QingHua/zhuang@dlut.edu.cn</author>
+  <license>BSD</license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/smartrob</url>
+  <depend stack="ros" />
+</stack>
